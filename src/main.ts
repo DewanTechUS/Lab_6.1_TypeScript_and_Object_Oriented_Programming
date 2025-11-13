@@ -10,6 +10,7 @@ const products = [
     
   new PhysicalProduct("P-001", "Laptop", 1200, 1.8),
   new PhysicalProduct("P-002", "Headphones", 100, 0.25),
+  
   new DigitalProduct("D-001", "E-Book", 15, 5),
   new DigitalProduct("D-002", "Music Album", 9.99, 120),
 ];

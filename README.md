@@ -48,7 +48,7 @@ but I spent around 5 hours debugging simple issues.
 - This improved my confidence and problem-solving skills.
 
 # Special Thanks
-Special thanks to my instructors and my classmates who worked together to resolve issues, debug problems, and support one another. Everyone is very knowledgeable, and this lab took me much longer than expected. Their guidance—teaching us how to loop through arrays, work with directories, fix syntax errors, and set up files correctly helped me understand the concepts clearly and finally complete this project successfully after 12 hours of struggle.
+Special thanks to my instructors and my classmates who worked together to resolve issues, debug problems, and support one another. Everyone is very knowledgeable, and this lab took me much longer than expected. Their guidance teaching us how to loop through arrays, work with directories, fix syntax errors, and set up files correctly helped me understand the concepts clearly and finally complete this project successfully after 12 hours of struggle.
 
 # Project Structure
 inventory-tracker
@@ -83,6 +83,7 @@ npm start
 - Main program loops through products and prints details
 
 # Reflection
+
 ## This lab helped me strengthen my understanding of:
 - TypeScript
 - Object-oriented programming
