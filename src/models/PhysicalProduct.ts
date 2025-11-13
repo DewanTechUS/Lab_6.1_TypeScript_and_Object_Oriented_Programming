@@ -19,7 +19,7 @@ export class PhysicalProduct extends Product {
 
   // 10% tax for physical products
   getPriceWithTax(): number {
-    const taxRate = 0.10;
+    const taxRate = 0.10; // 10% tax
     const finalPrice = this.price * (1 + taxRate);
     return Number(finalPrice.toFixed(2));
   }
