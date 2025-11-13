@@ -1,24 +1,13 @@
 {
   "name": "inventory-tracker",
   "version": "1.0.0",
-  "description": "",
-  "main": "notes.js",
+  "main": "dist/main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "start": "node dist/main.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/DewanTechUS/Lab_6.1_TypeScript_and_Object_Oriented_Programming.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/DewanTechUS/Lab_6.1_TypeScript_and_Object_Oriented_Programming/issues"
-  },
-  "homepage": "https://github.com/DewanTechUS/Lab_6.1_TypeScript_and_Object_Oriented_Programming#readme",
   "devDependencies": {
-    "@types/node": "^24.10.1",
-    "typescript": "^5.9.3"
+    "typescript": "^5.0.0"
   }
 }
+
