@@ -1,10 +1,10 @@
 // src/main.ts
 // Main program: create products and show their details + tax price
 // https://ps-lms.vercel.app/curriculum/se/413/lab-1#:~:text=Implement%20the%20Main%20Program%3A
+// Import classes and tax calculator // as per lesson instructions
 import { PhysicalProduct } from "./models/PhysicalProduct";
 import { DigitalProduct } from "./models/DigitalProduct";
 import { calculateTax } from "./utils/taxCalculator";
-
 const products = [
   new PhysicalProduct("P-001", "Laptop", 1200, 1.8),
   new PhysicalProduct("P-002", "Headphones", 100, 0.25),
