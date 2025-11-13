@@ -5,7 +5,9 @@
 import { PhysicalProduct } from "./models/PhysicalProduct";
 import { DigitalProduct } from "./models/DigitalProduct";
 import { calculateTax } from "./utils/taxCalculator";
+// teacher told one of my classmate to use looping through products, displaying details and tax-included price
 const products = [
+    
   new PhysicalProduct("P-001", "Laptop", 1200, 1.8),
   new PhysicalProduct("P-002", "Headphones", 100, 0.25),
   new DigitalProduct("D-001", "E-Book", 15, 5),
@@ -16,8 +18,7 @@ console.log("Product Details and Prices with Tax:");
 
 for (const product of products) {
   console.log(product.displayDetails());
-  const priceWithTax = calculateTax(product);
-  console.log("Price with tax: $" + priceWithTax.toFixed(2));
+const priceWithTax = calculateTax(product);
+console.log("Price with tax: $" + priceWithTax.toFixed(2));
 
 }
-// 
